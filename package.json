@@ -1,8 +1,7 @@
 {
-    "name": "construct-js-server"
-  , "version": "0.3.0"
+    "name": "massively-multiplayer-mice"
+  , "version": "0.0.1"
   , "private": true
-  , "main": "./src/tegh"
   , "dependencies": {
       "coffee-script": "1.6.3"
     , "express": "3.x"
