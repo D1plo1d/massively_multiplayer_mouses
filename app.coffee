@@ -6,7 +6,7 @@ io = require('socket.io').listen(server)
 io.set('log level', 1)
 app.engine('jade', require('jade').__express)
 app.use('/', express.static(__dirname + '/public'))
-server.listen 80
+server.listen process.env.PORT || 8880
 
 # configuring assets pipeline (full definition of config options see below)
 app.use require("asset-pipeline")(
