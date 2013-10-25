@@ -1,0 +1,19 @@
+{
+    "name": "construct-js-server"
+  , "version": "0.3.0"
+  , "private": true
+  , "main": "./src/tegh"
+  , "dependencies": {
+      "coffee-script": "1.6.3"
+    , "express": "3.x"
+    , "sugar": "*"
+    , "asset-pipeline": "*"
+    , "jade": "*"
+    , "stylus": "*"
+    , "socket.io": "*"
+  },
+    "engines": {
+    "node": "~0.10.x",
+    "npm": "1.1.x"
+  }
+}
